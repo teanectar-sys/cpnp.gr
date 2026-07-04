@@ -19,7 +19,7 @@ body{
 
     color:#1f2937;
 
-    background:#f8fafc;
+    background:#f3f4f6;
 
     line-height:1.7;
 
@@ -93,7 +93,7 @@ nav a{
 
 nav a:hover{
 
-    color:#2563eb;
+    color:#374151;
 
 }
 
@@ -121,9 +121,9 @@ nav a:hover{
 
     display:inline-block;
 
-    background:#dbeafe;
+    background:#e5e7eb;
 
-    color:#2563eb;
+    color:#374151;
 
     padding:10px 18px;
 
@@ -191,7 +191,7 @@ nav a:hover{
 
 .btn-secondary{
 
-    border:2px solid #2563eb;
+    border:2px solid #374151;
 
     color:#2563eb;
 
@@ -207,7 +207,7 @@ nav a:hover{
 
 .btn-secondary:hover{
 
-    background:#2563eb;
+    background:#374151;
 
     color:white;
 
