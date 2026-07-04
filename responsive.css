@@ -1,0 +1,86 @@
+/* responsive.css */
+
+@media (max-width: 992px){
+
+.header .container{
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+nav{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:768px){
+
+.container{
+    width:94%;
+}
+
+.hero{
+    padding:70px 0;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+section{
+    padding:60px 0;
+}
+
+h2{
+    font-size:28px;
+}
+
+.header .container{
+    flex-direction:column;
+}
+
+nav{
+    gap:16px;
+}
+
+.btn{
+    width:100%;
+    text-align:center;
+}
+
+input,
+textarea{
+    font-size:16px;
+}
+
+}
+
+@media (max-width:480px){
+
+.logo{
+    font-size:22px;
+}
+
+.hero h1{
+    font-size:28px;
+}
+
+.card{
+    padding:20px;
+}
+
+}
