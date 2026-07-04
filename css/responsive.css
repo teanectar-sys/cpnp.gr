@@ -1,0 +1,423 @@
+/* ==========================================================
+   RESPONSIVE.CSS
+   CPNP.GR
+========================================================== */
+
+
+/* ===========================
+   LARGE SCREENS
+=========================== */
+
+@media (max-width:1200px){
+
+.container{
+
+    width:94%;
+
+}
+
+.hero-grid{
+
+    gap:60px;
+
+}
+
+h1{
+
+    font-size:60px;
+
+}
+
+h2{
+
+    font-size:42px;
+
+}
+
+}
+
+
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width:992px){
+
+.nav-links{
+
+    display:none;
+
+}
+
+.mobile-toggle{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+    cursor:pointer;
+
+}
+
+.mobile-toggle span{
+
+    width:28px;
+
+    height:3px;
+
+    background:#101828;
+
+    border-radius:20px;
+
+}
+
+.hero{
+
+    padding-top:150px;
+
+}
+
+.hero-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.hero p{
+
+    margin:auto;
+
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-stats{
+
+    justify-content:center;
+
+}
+
+.hero-dashboard{
+
+    margin-top:70px;
+
+}
+
+.services-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.features-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.timeline{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.pricing-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer-grid{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width:768px){
+
+body{
+
+    font-size:16px;
+
+}
+
+h1{
+
+    font-size:46px;
+
+}
+
+h2{
+
+    font-size:34px;
+
+}
+
+h3{
+
+    font-size:22px;
+
+}
+
+p{
+
+    font-size:16px;
+
+}
+
+.hero{
+
+    padding-top:130px;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.hero-buttons .btn{
+
+    width:100%;
+
+}
+
+.hero-stats{
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.dashboard-window{
+
+    padding:18px;
+
+}
+
+.section-header{
+
+    margin-bottom:60px;
+
+}
+
+.services{
+
+    padding:90px 0;
+
+}
+
+.why-us{
+
+    padding:90px 0;
+
+}
+
+.process{
+
+    padding:90px 0;
+
+}
+
+.statistics{
+
+    padding:90px 0;
+
+}
+
+.pricing{
+
+    padding:90px 0;
+
+}
+
+.faq{
+
+    padding:90px 0;
+
+}
+
+.cta{
+
+    padding:90px 0;
+
+}
+
+.contact-banner{
+
+    padding:90px 0;
+
+}
+
+.cta-box{
+
+    padding:50px 30px;
+
+}
+
+.contact-box{
+
+    padding:50px 30px;
+
+}
+
+.features-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.timeline{
+
+    grid-template-columns:1fr;
+
+}
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+}
+
+
+
+/* ===========================
+   SMALL MOBILE
+=========================== */
+
+@media (max-width:480px){
+
+.container{
+
+    width:92%;
+
+}
+
+.header{
+
+    height:auto;
+
+}
+
+.navbar{
+
+    height:74px;
+
+}
+
+.logo{
+
+    font-size:24px;
+
+}
+
+h1{
+
+    font-size:38px;
+
+    letter-spacing:-1px;
+
+}
+
+h2{
+
+    font-size:30px;
+
+}
+
+.btn{
+
+    padding:16px 24px;
+
+}
+
+.service-card{
+
+    padding:30px;
+
+}
+
+.feature-card{
+
+    padding:30px;
+
+}
+
+.timeline-item{
+
+    padding:30px;
+
+}
+
+.price-card{
+
+    padding:30px;
+
+}
+
+.faq-question{
+
+    font-size:18px;
+
+    padding:22px;
+
+}
+
+.success-card{
+
+    padding:18px;
+
+}
+
+.dashboard-title{
+
+    font-size:18px;
+
+}
+
+}
