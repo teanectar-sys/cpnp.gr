@@ -421,3 +421,26 @@ h2{
 }
 
 }
+@media (max-width:900px){
+
+.hero-content{
+    grid-template-columns:1fr;
+}
+
+.hero-left{
+    text-align:center;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.hero-features{
+    grid-template-columns:1fr;
+}
+
+.hero-right{
+    margin-top:40px;
+}
+
+}
